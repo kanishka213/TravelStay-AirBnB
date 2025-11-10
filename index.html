@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TravelStay | Find Your Perfect Stay</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🏠 Travel<span>Stay</span></div>
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Destinations</a>
+      <a href="#">Stays</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Discover your next stay</h1>
+      <p>Find affordable homes, villas, and apartments around the world.</p>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search destinations..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Listings -->
+  <main class="container">
+    <h2 class="section-title">Featured Properties</h2>
+    <div id="propertyGrid" class="property-grid"></div>
+  </main>
+
+  <!-- Gallery Modal -->
+  <div id="galleryModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modalImg" src="" alt="Gallery Image" />
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 TravelStay | Designed with ❤️ by Aryan Srivastava</p>
+  </footer>
+</body>
+</html>
